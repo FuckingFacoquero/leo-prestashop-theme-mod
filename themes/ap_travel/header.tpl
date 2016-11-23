@@ -87,8 +87,11 @@
 		{if isset($LAYOUT_WIDTH)}
                 {$LAYOUT_WIDTH}
 		{/if}
+		<link rel="stylesheet" type="text/css" href="{$content_dir}themes/{$LEO_THEMENAME}/css/theme-mod.css">
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,700italic,400italic,900,900italic' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="{$content_dir}themes/{$LEO_THEMENAME}/js/jquery.min.js"></script>
+		<script type="text/javascript" src="{$content_dir}themes/{$LEO_THEMENAME}/js/theme-mod.js"></script>
 		<!--[if IE 8]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
