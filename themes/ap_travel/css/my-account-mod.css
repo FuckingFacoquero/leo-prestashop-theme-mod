@@ -1,0 +1,7 @@
+/* MY ACCOUNT */
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+#my-account > p, #my-account > label, #my-account > a { font-family: 'Varela Round', sans-serif !important; }
+#my-account ul.myaccount-link-list li a:hover > .fa::before { color: #BE81F7 !important; transition: 0.5s; }
+#center_column { background-color: #222 !important; }
+#center_column > p { color: white !important; } 
+.columns-container { background-color: #222 !important; }
